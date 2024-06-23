@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+html {
+    width: 100vw;
+    height: 10vh;
+    font-size: 90.5%;
+    color: black;
+
+}
+body {
+    background: linear-gradient(rgb(16, 16, 16, 0.5), rgba(25, 25, 25, 0.5)), url(./imagens/FUNDO.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
+
+header{
+    width: 100%;
+    height: 7vw;
+    background: rgb(199, 183, 1, 0.947);
+}
+.menu{
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.imagem{
+    height: 50px;
+    width: 50px;
+}
+
+.logo{
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card{
+    background-color: rgb(65, 97, 97);
+    width: 180px;
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.783);
+}
+.card img{
+    width: 60%;
+    height: 150px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.card section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+    height: 40%;
+}
+
+.card h1{
+    font-size: 1.2rem;
+}
+
+.card h2{
+    font-size: 0.8rem;
+    color: black;
+}
+
+.card button{
+    background-color: yellow;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #fff;
+font-size: 0.7rem;
+font-weight: bold;
+border-radius: 4px;
+}
+.card button:hover{
+    border-color: #137DE8;
+    cursor: pointer;
+}
+.main-content{
+    color: azure;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: azure;
+    padding: 5px 0;
+    font-size: 0.9rem;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.footer-form, .footer-contact {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-form h3, .footer-contact h3 {
+    margin-bottom: 10px;
+}
+
+.footer-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-form label {
+    margin-bottom: 5px;
+}
+
+.footer-form input {
+    margin-bottom: 8px;
+    padding: 5px;
+    font-size: 1.4rem;
+}
+
+.footer-form button {
+    padding: 10px;
+    font-size: 1.3rem;
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-contact p {
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+}
